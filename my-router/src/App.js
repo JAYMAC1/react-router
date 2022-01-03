@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Switch, NavLink } from 'react-router-dom'
 import './App.css'
 import About from './pages/About'
+import Article from './pages/Article'
 import Contact from './pages/Contact'
 import Home from './pages/Home'
 
@@ -25,6 +26,10 @@ function App() {
           </Route>
           <Route path='/about'>
             <About />
+          </Route>
+
+          <Route path='/articles/:id'>
+            <Article />
           </Route>
         </Switch>
       </BrowserRouter>
