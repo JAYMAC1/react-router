@@ -3,7 +3,9 @@ import './App.css'
 function App() {
   return (
     <div className='App'>
-      <h1>New blank project</h1>
+      <nav>
+        <h1>My Articles</h1>
+      </nav>
     </div>
   )
 }
